@@ -21,7 +21,7 @@
 - docker run --rm -v /c/Users/super/Projects/DockerCourse:/data bemah4123/hello-docker:v1.1 /data/test.txt
 
 ### Delete Docker Image
-- docker rmi <repository_name>:<tag>
+- docker rmi repository_name:tag
 
 ### MISC
 - docker run -it ubuntu

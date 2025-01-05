@@ -7,7 +7,9 @@
 ### How to run docker
 - docker run hello-docker
 
-
+### How to pull docker repo
+- docker pull bemah4123/hello-docer:v1.1
+  
 ### How to push docker repo
 - Set the tag
 - docker tag hello-docker bemah4123/hello-docker:v1.0

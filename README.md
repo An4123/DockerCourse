@@ -20,6 +20,9 @@
 - docker run --rm -v $(pwd):/data bemah4123/hello-docker:v1.1 /data/myfile.txt
 - docker run --rm -v /c/Users/super/Projects/DockerCourse:/data bemah4123/hello-docker:v1.1 /data/test.txt
 
+### Delete Docker Image
+- docker rmi <repository_name>:<tag>
+
 ### MISC
 - docker run -it ubuntu
     - runs an ubuntu instance from docker. 

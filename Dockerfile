@@ -8,5 +8,6 @@ COPY . /app
 # set the current working directory to /app (the one we created above)
 WORKDIR /app
 
-# Execute this command -> runs the app.py
-CMD [ "python","app.py" ] 
+# Execute this command -> runs the app.py (Refer to readme for difference between entrypoint vs CMD)
+# CMD [ "python","app.py" ] 
+ENTRYPOINT [ "python","app.py" ] 

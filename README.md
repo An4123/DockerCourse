@@ -1,7 +1,7 @@
 # Docker Course
 
 ### How to build docker
- - docker build -t hello-docker
+ - docker build -t hello-docker .
 
 
 ### How to run docker
@@ -16,6 +16,9 @@
 - push the tag
 - docker push bemah4123/hello-docker:v.10
 
+### Mount volume so container can see local stuff and not just stuff in the container. (Linux, Windows respectively)
+- docker run --rm -v $(pwd):/data bemah4123/hello-docker:v1.1 /data/myfile.txt
+- docker run --rm -v /c/Users/super/Projects/DockerCourse:/data bemah4123/hello-docker:v1.1 /data/test.txt
 
 ### MISC
 - docker run -it ubuntu
